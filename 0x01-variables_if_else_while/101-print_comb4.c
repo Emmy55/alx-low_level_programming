@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 /**
- *  * main - prints out all possible combos of 3 digits
- *   * Return: 0
- *    */
+ * main - prints out all possible combos of 3 digits
+ * Return: 0
+ */
 int main(void)
 {
-
 	int i, j, k;
-
 	for (i = 48; i < 58; j++)
 	{
 		for (j = i; j < 58; j++)
