@@ -1,42 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - program that prints all single digit numbers of base 10 starting from
- * You are not allowed to use any variable of type char
- * You can only use the putchar function
+ * main - Entry point 
+ *
  * Return: 0
  */
-
 int main(void)
 {
-	int i, j, k;
+	int i = 48;
 
-	for (i = 48; i < 58; i++)
+	while (i < 58)
 	{
-		for (j = i; j < 58; j++)
-		{
-			for (k = j; k < 58; k++)
-			{
-				if (i == j || j == k || i == k)
-				{
-					continue;
-				}
-				putchar(i);
-				putchar(j);
-				putchar(k);
-
-				if (i == 55 && j == 56 && k == 57)
-				{
-					break;
-				}
-				else
-				{
-					putchar(',');
-					putchar(' ');
-				}
-
-			}
-		}
+		putchar(i);
+		i++;
 	}
 	putchar('\n');
 	return (0);
