@@ -5,7 +5,7 @@
  * Numbers must be separated by ,followed by a space
  * Numbers should be printed in ascending order with 2 digits
  * You can only use the putchar function
- * Return: 0
+ * Return: 0;
  */
 
 int main(void)
