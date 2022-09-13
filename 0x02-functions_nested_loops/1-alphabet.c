@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints the english alphabet from a-z.
+ * print_alphabe - prints the lowercase alphabet from.
  *
  *
- * Return: Nothing.
+ * Return: void
  */
+
 void print_alphabet(void)
 {
 	char c = 'a';
