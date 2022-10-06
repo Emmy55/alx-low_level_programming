@@ -86,7 +86,7 @@ int main(int argc, char *argv[])
 	int ln1, ln2, lnout, add, addl, i, j, k, ca;
 	char *nout;
 
-	f (argc != 3)
+	if (argc != 3)
 		printf("Error\n"), exit(98);
 	ln1 = _checknum(argv, 1), ln2 = _checknum(argv, 2);
 	_is_zero(argv), lnout = ln1 + ln2, nout = malloc(lnout + 1);
